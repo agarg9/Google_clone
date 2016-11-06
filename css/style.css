@@ -1,0 +1,82 @@
+/**{
+	border: 2px solid black;
+}
+div{
+	border: 1px solid red;
+}*/
+body{
+	size: 100%;
+}
+#nav{
+	text-align: right;
+	padding: 6px;
+	color: #212121;
+	margin-right: 5px;
+}
+#nav a{
+	color: #212121;
+	margin: 6px;
+	font-family: "Arial", Georgia, Serif;
+	font-size: 13px;
+	text-decoration:none;
+}
+#nav img {
+  border-radius: 50%;
+  width: 3%;
+  vertical-align: middle;
+  margin: 0px 5px;
+}
+#search_content{
+	padding-top: 10%;
+	text-align: center;
+	/*align-content: center;*/
+	/*height:1000px;*/
+}
+#search_content div{
+	padding: 11px 10px;
+}
+#search_content img{
+	width: 27%;
+	height: auto;
+}
+#search_content input{
+	width: 48%;
+	height: 35px;
+	padding: 0px 8px;
+}
+#search_content button{
+	margin: 2px;
+	padding: 2px 18px 2px 18px; 
+	/*width: 15%;*/
+	height: 38px;
+	background-color: #efefef; 
+	color: #707070;
+	border: none;
+	/*box-shadow: none;*/
+}
+
+footer{
+	/*position: fixed;*/
+	position: absolute;
+	padding: 11px;
+	left: 0px;
+	right: 0px;
+	bottom: 0px;
+	background-color: #efefef; 
+}
+#part1{
+	float: left;
+	/*text-align: left;*/
+}
+#part2{
+	/*text-align: right;*/
+	float: right;
+}
+footer a{
+	padding-left: 14px;
+	padding-right: 14px;
+	color: #707070;
+	font-family: "Arial", Georgia, Serif;
+	font-size: 13px;
+	text-decoration:none;
+}
